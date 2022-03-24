@@ -7,12 +7,13 @@
 
 		<image name="logo">
 			<path>./system.png</path>
+			<pos>0.5 0.4</pos>
 		</image>
 
 	</view>
 
 
-	<view name="detailed">
+	<view name="detailed, video">
 		<image name="background_pattern" extra="true">
 			<path>./bg.png</path>
 			<origin>0.5 0.5</origin>
