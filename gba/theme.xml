@@ -1,0 +1,24 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	<include>./../spare.xml</include>
+
+	<view name="system">
+
+		<image name="logo">
+			<path>./system.png</path>
+		</image>
+
+	</view>
+
+
+	<view name="detailed">
+		<image name="background_pattern" extra="true">
+			<path>./bg.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+		</image>
+
+	</view>
+</theme>
