@@ -86,9 +86,9 @@
 			</image>
 
 			<image name="md_marquee">
-				<pos>0.55 0.035</pos>
-				<origin>0 0</origin>
-				<maxSize>0.34 0.2</maxSize>
+				<pos>0.7 0.135</pos>
+				<origin>0.5 0.5</origin>
+				<maxSize>0.3 0.18</maxSize>
 			</image>
 
 
@@ -103,13 +103,6 @@
 				<fontSize>0.03</fontSize>
 				<horizontalMargin>0.01</horizontalMargin>
 			</textlist>
-
-			<image name="md_image">
-				<origin>0.0 0.0</origin>
-				<pos>0.533 0.26</pos>
-				<maxSize>0.334 0.4</maxSize>
-			</image>
-
 
 			<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_rating">
 				<color>000000</color>
@@ -211,8 +204,8 @@
 		<view name="video">
 
 			<video name="md_video">
-				<origin>0.0 0.0</origin>
-				<pos>0.533 0.26</pos>
+				<origin>0.5 0.5</origin>
+				<pos>0.7 0.46</pos>
 				<maxSize>0.334 0.4</maxSize>
 				<delay>1.0</delay>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
@@ -222,5 +215,13 @@
 		</view>
 
 	</feature>
+	
+	<view name="detailed">
+		<image name="md_image">
+			<origin>0.0 0.0</origin>
+			<pos>0.533 0.26</pos>
+			<maxSize>0.334 0.4</maxSize>
+		</image>
 
+	</view>
 </theme>
